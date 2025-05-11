@@ -8,7 +8,8 @@
     <title>Terralink Export</title>
     <meta name="description" content="Terralink Export">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="assets/img/terralink.png" width="100%">
+
+    <link rel="shortcut icon" type="img/png" href="assets/img/terralink.png" width="100%">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
@@ -24,204 +25,11 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </head>
-
-<style>
-    /* Preloader ka styling */
-
-  
-.loader {
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
-  border-radius: 50%;
-  margin: auto;
-  width: 80px;
-  height: 80px;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-    /* Floating WhatsApp button */
-
-    .whatsapp-float {
-        position: fixed;
-        bottom: 75px;
-        right: 45px;
-        z-index: 1000;
-        width: 50px;
-        height: 50px;
-        background-color: #25d366;
-        border-radius: 50%;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.3s ease;
-        text-decoration: none;
-    }
-
-    /* WhatsApp icon image */
-
-    .whatsapp-icon {
-        width: 35px;
-        height: 35px;
-    }
-
-    /* Hover effect */
-
-    .whatsapp-float:hover {
-        transform: scale(1.1);
-    }
-
-    .modal-content {
-        background-color: #f1f1f1;
-        color: white;
-        padding: 20px;
-    }
-
-    .form-control {
-        background-color: #fff;
-        color: black;
-    }
-
-    .btn-submit {
-        /* background-color: #ffc107; */
-        background-color: rgb(41, 171, 226);
-        color: #fff;
-        margin-top: 20px;
-    }
-
-    @media (max-width: 768px) {
-        .whatsapp-float {
-            width: 45px;
-            /* Reduce size */
-            height: 45px;
-            bottom: 30px;
-            /* Adjust position */
-            right: 20px;
-        }
-        .whatsapp-icon {
-            width: 30px;
-            /* Adjust icon size */
-            height: 30px;
-        }
-    }
-
-    @media (max-width: 480px) {
-        .whatsapp-float {
-            width: 40px;
-            /* Further reduce size for smaller screens */
-            height: 40px;
-            bottom: 60px;
-            /* Further adjust position */
-            right: 10px;
-        }
-        .whatsapp-icon {
-            width: 25px;
-            /* Adjust icon size */
-            height: 25px;
-        }
-    }
-
-
-
-
-        .contactForm{
-            display: grid;
-            gap: 1rem;
-            margin: 2rem 2rem;
-        }
-        
-        form{
-            width: 100%;
-        }
-        
-        .para{
-            font-size: 1.1rem;
-            line-height: 1.5em;
-            margin-bottom: 1em;
-        }
-        
-        
-        .input{
-            width: 100%;
-            max-width: 700px;
-            border: none;
-            font-size: .9rem;
-            padding: 1em;
-            outline: none;
-            background-color: var(--formBg);
-            color: var(--paraColor);
-            border-radius: 10px;
-            border: 1px solid rgb(53, 53, 53);
-            margin-bottom: 1em;
-        
-        }
-
-        .textarea{
-            border: 1px solid rgb(53, 53, 53);
-        }
-        
-        .input:focus{
-            border: 1px solid var(--primaryColor);
-        }
-        
-        .input::placeholder{
-            text-transform: capitalize;
-        }
-        
-        .submit{
-            background-color: var(--primaryColor);
-            border: none;
-            color: var(--textColor);
-            font-weight: bold;
-            cursor: pointer;
-            width: 100%;
-        }
-        
-        .map-container{
-            position: relative;
-            width: 100%;
-            height: 500px;
-        }
-        
-        .map{
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-        
-        .map iframe{
-            width: 100%;
-            height: 100%;
-            
-        }
-
-        @media screen and (min-width:800px) {
-            .contactForm{
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-    
-</style>
-
-
 <body class="theme-blue">
-    <div id="preloader" style="align-items: center; justify-content: center; display: flex;">
-        <div class="prebanner">
-            <div class="title">
-                <img height="300px" src="image/terralink.png">
-                <div class="loader"></div>
-            </div>
-        </div>
-    </div>
     <!-- Scroll-top -->
     <button class="scroll__top scroll-to-target" data-target="html">
         <i class="fas fa-angle-up"></i>
@@ -276,17 +84,17 @@
                             <div class="tgmenu__nav-left-side">
                                 <div class="logo">
                                     <a href="index.html"><img src="assets/img/terralink.png" alt="Logo"
-                                            style="max-height: 90px;"></a>
+                                            style="max-height: 100px;"></a>
                                 </div>
                             </div>
                             <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                 <ul class="navigation">
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About Us</a></li>
-                                    <li class="menu-item-has-children"><a href="products.html">Products</a>
+                                    <li class="menu-item-has-children"><a href="products.html" style="color: #008cff;">Products</a>
                                         <ul class="sub-menu">
-                                            <li><a href=" turmeric.html"> Turmeric</a></li>
-                                            <li><a href="makhana.html">Makhana</a></li>
+                                            <li><a href="api.html" style="color: #008cff;">Turmeric</a></li>
+                                            <li><a href="makhana.html">Makahana</a></li>
                                         </ul>
                                     </li>
                                     <!-- <li><a href="products.html">Products</a></li> -->
@@ -333,203 +141,38 @@
         </div>
     </header>
     <!-- header-area-end -->
+<!-- main-area -->
+<main class="fix">
+    <!-- Product-area -->
 
-    <!-- main-area -->
-    <main class="fix">
-
-        <!-- banner-area -->
-        <div class="hero" id="hero" style="background-image: url('image/bgimage.png');">
-            <div class="overlay">
-                <h1 id="heading" style="color: #fff; font-size: 50px;">Welcome to Terralink Export</h1>
-                <p id="description" style="color: #fff; font-size: 20px;">Connecting Land, Creating Opportunity.</p>
-                <div class="hero_buttons">
-                    <a href="products.html" class="btn" style="background-color: white; color:#000">Products </a>
-                    <a   class="btn" style="background-color: white; color:#000" data-bs-toggle="modal" data-bs-target="#requestQuoteModal">Get Quote</a>
-                </div>
-                </div>
-        </div>
-
-
-        <!-- banner-area-end -->
-
-        <!-- about-area -->
-        <section class="about__area pt-120 pb-120">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-6 col-md-8">
-                        <div class="about__img">
-                            <img src="image/about.png" alt="about">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="about__content">
-                            <div class="section__title mb-15">
-                                <h2 class="title">Terralink Export</h2>
-                            </div>
-                            <p align="justify">Terralink Export is a trusted Indian export company specializing in high-quality Makhana (Fox Nuts) and 
-                                Turmeric for international markets. Rooted in India’s rich agricultural heritage, we are committed to delivering organic, 
-                                sustainably sourced products that reflect the purity, health benefits, and cultural value of traditional Indian farming. 
-                                By working closely with local farmers who follow ethical and eco-friendly practices, we ensure that our products maintain the 
-                                highest standards of quality while promoting environmental responsibility. Our mission is not only to meet global demand 
-                                but also to empower rural communities, support sustainable agriculture, and bring the essence of India’s natural goodness to the world.
-                            </p>
-                            <a href="about.html" class="btn">Know More</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- about-area-end -->
-
-        <!-- brand-area -->
-        <div class="brand__area">
-            <div class="container">
-                <h1 class="title" align="center"><b>Certifications We Have</b></h1><br><br>
-                <div class="swiper brand-active fix">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="brand__item">
-                                <img src="assets/img/home/certification/Certificate1.webp" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand__item">
-                                <img src="assets/img/home/certification/Certificate2.webp" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand__item">
-                                <img src="assets/img/home/certification/Certificate3.webp" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand__item">
-                                <img src="assets/img/home/certification/Certificate4.webp" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand__item">
-                                <img src="assets/img/home/certification/Certificate5.webp" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand__item">
-                                <img src="assets/img/home/certification/Certificate2.webp" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand__item">
-                                <img src="assets/img/home/certification/Certificate3.webp" alt="img">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand__item">
-                                <img src="assets/img/home/certification/Certificate4.webp" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="aabout-header">
+        <div class="aoverlay">
+            <h1 style="color: #fff; margin-top: -10px;">Turmeric</h1>
+            
+            <div class="abreadcrumb">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a> ➝<a href="products.html"> Products</a> ➝ <span>Turmeric</span>
             </div>
         </div>
-        
-
-
-
-        <!-- choose-area -->
-        <section class="choose__area choose__bg" style="background-image: linear-gradient(to left, #003968, #008cff); padding-top: 20px; padding-bottom: 20px;">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-5 col-md-10">
-                        <div class="choose__img wow img-custom-anim-left animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                            <img height="500px" width="600px" src="image/whychoose.png" alt="img">
-                        </div>
+    </div>
+    <section class="blog-area section-py-120">
+       
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <br>
+                        <br><br><br>
+                        <p style="text-align: center; justify-content: center; align-items: center;">Coming Soon.....</p>
+                        <br>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="choose__content">
-                            <div class="section__title white-title mb-25 pb-15">
-                                <!-- <span class="sub-title">Why Choose Us</span> -->
-                                <h2 class="title">Why Choose Terralink Export?</h2>
-                            </div>
-                            <div class="choose__content-bottom">
-                                <div class="counter__wrap">
-                                    <div class="counter__item">
-                                        <div class="counter__icon">
-                                        </div>
-                                        <div class="counter__content">
-                                            <p><b>Industry Expertise:</b> With deep knowledge of the agricultural export sector, we bring years of experience and insight to every shipment. Our team understands both domestic sourcing and international trade dynamics, ensuring smooth and compliant transactions every time.</p>
-                                        </div>
-                                    </div>
-                                    <div class="counter__item">
-                                        <div class="counter__icon">
-
-                                        </div>
-                                        <div class="counter__content">
-                                            <p><b>Global Network:</b>Our extensive global connections allow us to reach clients in diverse markets efficiently and reliably. Whether you're a distributor, retailer, or bulk buyer, our robust logistics and international presence ensure your needs are met promptly. </p>
-                                        </div>
-                                    </div>
-                                    <div class="counter__item">
-                                        <div class="counter__icon">
-
-                                        </div>
-                                        <div class="counter__content">
-                                            <p><b>Reliable Service: </b>We are committed to dependability — from timely dispatch to consistent quality. Our streamlined processes, strict quality controls, and transparent communication guarantee a worry-free export experience.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="counter__item">
-                                        <div class="counter__icon">
-                                        </div>
-                                        <div class="counter__content">
-                                            <p><b>Customer Satisfaction: </b> At the heart of everything we do is our customers. 
-                                                We take the time to understand your unique requirements and provide customized solutions, 
-                                                building long-term relationships founded on trust and satisfaction.</p>
-                                        </div>
-
-                                    </div>
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- choose-area-end -->
-
-        <!-- Contact Us -->
-
-
-        <section class="blog-area section-py-120" align="center">
-        <h1 class="heading">Get In Touch!</h1>
-        <p class="para">Have questions or need assistance? Get in touch with us—we’re here to help!</p>
-        
-        <div class="contactForm">
-            <form action="#">
-             <h1 class="sub-heading">Need Support !</h1>
-             <p class="para para2">Reach out to us for any support – we're here to assist your business!</p>
-             <input type="text" class="input" placeholder="your name">
-             <input type="text" class="input" placeholder="your email">
-             <input type="text" class="input" placeholder="your Subject">
-             <textarea class="input" cols="30" rows="5" placeholder="Your message..."></textarea>
-             <input type="submit" class="btn" value="Send Message">
-            </form>
-    
-            <div class="map-container">
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d426.6778174389845!2d73.09395537648737!3d19.021718099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e9d1258c7fbd%3A0xfdde4249d1c36b3b!2sGeetanjali%20Complex%2C%2031%2C%20Sector%208%2C%20Kamothe%2C%20Panvel%2C%20Navi%20Mumbai%2C%20Maharashtra%20410209!5e1!3m2!1sen!2sin!4v1746977071759!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
     </section>
 
 
-        <!-- End Contact Us -->
-       
-    </main>
-    <!-- main-area-end -->
+
+    <!-- Product-area-end -->
     <!-- Modal -->
     <div class="modal fade" id="requestQuoteModal" tabindex="-1" aria-labelledby="requestQuoteModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -573,8 +216,10 @@
             </div>
         </div>
     </div>
+</main>
+
     <!-- footer-area -->
-    <footer class="" style="background-image: linear-gradient(to bottom,  #004986, #004986 );     ">
+    <footer class="" style="background-image: linear-gradient(to top,  #004986, #004986 );     ">
         <div class="container">
             <div class="footer__top" style="padding-bottom:0px; padding-top:30px;">
                 <div class="row">
@@ -600,7 +245,6 @@
                                             <a href="makhana.html" style="color: #ffffff; font-family: sans-serif; font-size: 16px;">&nbsp;  Makhana</a>
                                         </i>
                                     </li>
-
                                 </ul>
                             </div>
                         </div>
@@ -631,12 +275,12 @@
 
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="footer__widget">
-                            <h6 class="footer__widget-title " style="font-size: 20px;">Contact Us</h6>
+                            <h6 class="footer__widget-title " style="font-size: 20px;"> Contact Us </h6>
                             <div class="footer__info-wrap  ">
                                 <ul class="list-wrap" style="font-size: 0px;">
                                     <li>
                                         <i class="flaticon-location-1"></i>
-                                        <a href="https://maps.app.goo.gl/mHfMbN1tEb4FwCuB6" target="_blank"><p style="color: #ffffff;  font-family: sans-serif; font-size: 14px;">A/102, Geetanjali Complex,
+                                        <a href="https://maps.app.goo.gl/65MsaEpJNar9n5Sy5" target="_blank"><p style="color: #ffffff;  font-family: sans-serif; font-size: 14px;">A/102, Geetanjali Complex,
 Sector-8, Plot no.: 31, Kamothe Navi Mumbai - 410209</p></a>
                                     </li>
                                     <li>
@@ -693,39 +337,10 @@ Sector-8, Plot no.: 31, Kamothe Navi Mumbai - 410209</p></a>
     <script src="assets/js/main.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-
-    <script>
-        const swiper = new Swiper('.brand-active', {
-            loop: true, // Enables infinite looping
-            autoplay: {
-                delay: 0, // No delay between transitions
-                disableOnInteraction: false, // Keeps autoplay running even after interaction
-            },
-            speed: 3000, // Controls the transition speed (in milliseconds)
-            slidesPerView: 'auto', // Dynamically adjusts based on the slide content
-            spaceBetween: 30, // Space between slides
-        });
-    </script>
-
-
     <script>
         SVGInject(document.querySelectorAll("img.injectable"));
     </script>
 
-    <script>
-        // JavaScript to control preloader timing
-        const delayTime = 200000; // Delay time in milliseconds (5000ms = 5 seconds)
-
-        // Run the code after the page is loaded
-        window.addEventListener("load", function() {
-            setTimeout(function() {
-                // Hide the preloader after the delay
-                document.getElementById("preloader").style.display = "none";
-                // Show the main content
-                document.getElementById("content").style.display = "block";
-            }, delayTime);
-        });
-    </script>
 
     <script type="text/javascript">
         function googleTranslateElementInit() {
@@ -735,8 +350,6 @@ Sector-8, Plot no.: 31, Kamothe Navi Mumbai - 410209</p></a>
         }
     </script>
     <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
     <script>
         $(document).ready(function() {
             $('#contact-form').on('submit', function(event) {
