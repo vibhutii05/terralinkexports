@@ -7259,6 +7259,115 @@ h1, p {
     margin-bottom: 0;
 }
 
+
+
+
+/* Products */
+
+.productContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #F2F5FF;
+  
+}
+
+.productCard {
+  width: 350px;
+  height: 470px;
+  background-color: #272D40;
+  border-radius: 1rem;
+  padding: 4rem 2rem 0;
+  color: #E9EAEC;
+  overflow-y: hidden;
+}
+
+.productCard__img {
+  position: absolute;
+  width: 260px;
+  filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
+}
+
+.productCard__data {
+  transform: translateY(13.2rem);
+  text-align: center;
+}
+
+.productCard__title {
+  font-size: 1.5rem;
+  color: #F2A20C;
+  margin-bottom: .5rem;
+}
+
+.productCard__preci {
+  display: inline-block;
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.productCard__description {
+  font-size: 1rem;
+  text-align: initial;
+  margin-bottom: 1.25rem;
+  opacity: 0;
+  color: white;
+}
+
+.productCard__button {
+  display: block;
+  width: max-content;
+  padding: 1.125rem 2rem;
+  background-color: #F2A20C;
+  color: #E9EAEC;
+  border-radius: .5rem;
+  font-weight: 600;
+  transition: .2s;
+  opacity: 0;
+}
+
+.productCard__button:hover {
+  box-shadow: 0 18px 40px -12px rgba(242,162,12,.35);
+}
+
+.productCard__img, 
+.productCard__data, 
+.productCard__title, 
+.productCard__preci, 
+.productCard__description {
+  transition: .5s;
+}
+
+/* Hover productCard effect */
+.productCard:hover .productCard__img {
+  transform: translate(-1.5rem, -9.5rem) rotate(-20deg);
+}
+
+.productCard:hover .productCard__data {
+  transform: translateY(4.8rem);
+}
+
+.productCard:hover .productCard__title {
+  transform: translateX(-0.3rem);
+  margin-bottom: 0;
+}
+
+.productCard:hover .productCard__preci {
+  transform: translateX(-0.3rem);
+}
+
+.productCard:hover .productCard__description, 
+.productCard:hover .productCard__button {
+  transition-delay: .2s;
+  opacity: 1;
+}
+
+
+
+
+
+
 /*=============================
     16. Features
 ===============================*/
