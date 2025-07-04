@@ -7365,6 +7365,46 @@ h1, p {
 
 
 
+/*===== Responsive Design =====*/
+@media (max-width: 600px) {
+  .productContainer {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .productCard {
+    width: 90vw;
+    min-width: 0;
+    height: auto;
+    padding: 2rem 1rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .productCard__img {
+    position: static;
+    width: 80vw;
+    max-width: 220px;
+    margin: 0 auto 1rem auto;
+    display: block;
+    transform: none !important;
+  }
+
+  .productCard__data {
+    transform: none !important;
+    padding: 0 0.5rem;
+  }
+
+  .productCard__title,
+  .productCard__preci,
+  .productCard__description,
+  .productCard__button {
+    transform: none !important;
+    text-align: center;
+  }
+}
+
+
 
 
 
