@@ -7366,7 +7366,7 @@ h1, p {
 
 
 /*===== Responsive Design =====*/
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .productContainer {
     flex-direction: column;
     height: auto;
@@ -7402,7 +7402,14 @@ h1, p {
     transform: none !important;
     text-align: center;
   }
-}
+
+  /* Show full content by default on mobile */
+  .productCard__description,
+  .productCard__button {
+    opacity: 1 !important;
+    transition-delay: 0s
+
+
 
 
 
