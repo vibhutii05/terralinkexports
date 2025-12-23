@@ -91,15 +91,15 @@
                                 <ul class="navigation">
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About Us</a></li>
-                                    <li class="menu-item-has-children"><a href="products.html" style="color: #008cff;">Products</a>
+                                    <li class="menu-item-has-children"><a href="products.html">Products</a>
                                         <ul class="sub-menu">
                                             <li><a href="turmeric.html">Turmeric</a></li>
                                             <li><a href="makhana.html">Makahana</a></li>
-                                             <li><a href="redchilli.html">Red Chilli</a></li>
+                                            <li><a href="redchilli.html">Red Chilli</a></li>
                                         </ul>
                                     </li>
                                     <!-- <li><a href="products.html">Products</a></li> -->
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.html" style="color: #008cff;">Contact</a></li>
                                     <!--<li><a href="faq.html">FAQ's</a></li>-->
                                 </ul>
                             </div>
@@ -156,51 +156,63 @@
 
     <div class="aabout-header">
         <div class="aoverlay">
-            <h1 style="color: #fff; margin-top: -10px;">Products</h1>
-            
+            <h1 style="color: #fff; margin-top: -10px;">Contact Us</h1>
+
             <div class="abreadcrumb">
-                <a href="index.html"><i class="fas fa-home"></i> Home</a> ➝<span>Products</span>
+                <a href="index.html"><i class="fas fa-home"></i> Home</a> ➝<span>Contact</span>
             </div>
         </div>
     </div>
-       
-        <div class="productContainer">
-            <div class="productCard wow fadeInUp" data-wow-delay="0.2s">
-                <img src="image/product_turmeric.png" alt="Turmeric" class="productCard__img"> 
-                     <div class="productCard__data">
-                         <h1 class="productCard__title">Turmeric</h1>
-                         <p style="color: #fff;">(HSN Code: 09103030)</p>
-                         <span class="productCard__preci">Golden goodness from farm to table.</span>
-                         <p class="productCard__description">Explore our Premium range of farm-fresh tumeric, sustainably grown, richly aromatic and naturally powerfull.</p>
-                         <a href="turmeric.html" class="productCard__button">Know more</a>
-                     </div>
-            </div>
-            <div class="productCard wow fadeInUp" data-wow-delay="0.4s">
-                <img src="image/product_makhana.png" alt="Makhana" class="productCard__img"> 
-                     <div class="productCard__data">
-                         <h1 class="productCard__title">Makhana</h1>
-                         <p style="color: #fff;">(HSN Code: 20081921)</p>
-                         <span class="productCard__preci">From pond to pack - pure makhana</span>
-                         <p class="productCard__description">Explore our Premium range of handpicked makhana from farmers, naturally sourced, expertly roast. Makhana you can trust.</p>
-                         <a href="makhana.html" class="productCard__button">Know more</a>
-                     </div>
-            </div>
 
-            <div class="productCard wow fadeInUp" data-wow-delay="0.6s">
-                <img src="image/Redchillipowder.png" alt="Red Chilli Powder" class="productCard__img"> 
-                     <div class="productCard__data">
-                         <h1 class="productCard__title">Red Chilli Powder</h1>
-                         <p style="color: #fff;">(HSN Code: 09042211)</p>
-                         <span class="productCard__preci">From Indian farms to your kitchen – spice that speaks quality.</span>
-                         <p class="productCard__description">Pure and vibrant Red Chilli Powder, made from handpicked Indian chillies for rich color and bold flavor.</p>
-                         <a href="redchilli.html" class="productCard__button">Know more</a>
-                     </div>
+    <section class="contact-area section-py-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Get In Touch</h3>
+                    <p>For enquiries about our products, shipments or partnerships, please use the form below or reach us via phone or email.</p>
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="c_fullName" name="fullName" placeholder="Full name" required />
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="c_email" name="email" placeholder="Email" required />
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" id="c_phone" name="phone" placeholder="Phone (include country code)" required />
+                        </div>
+                        <div class="mb-3">
+                            <input list="countryList" id="c_country" name="country" class="form-control" placeholder="Country" required />
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="c_message" name="message" rows="4" placeholder="Your message" required></textarea>
+                        </div>
+                        <div style="display:flex; gap:10px; align-items:center;">
+                            <button type="button" class="btn" id="c_wa_btn" style="background:#25D366;color:#fff;border-color:#25D366;">💬 Send on WhatsApp</button>
+                            <button type="button" class="btn" id="c_email_btn" style="background:#008cff;color:#fff;">📧 Send via Email</button>
+                        </div>
+                    </form>
+                    <datalist id="countryList">
+                        <option value="India">
+                        <option value="United States">
+                        <option value="United Kingdom">
+                        <option value="United Arab Emirates">
+                        <option value="Australia">
+                        <option value="Canada">
+                        <option value="Other">
+                    </datalist>
+                </div>
+                <div class="col-lg-6">
+                    <h4>Contact Details</h4>
+                    <p><strong>Phone:</strong> <a href="tel:+919892274806">+91 9892274806</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:merchant@terralinkexport.com">merchant@terralinkexport.com</a></p>
+                    <p><strong>Address:</strong> A/102, Geetanjali Complex, Sector-8, Plot no.: 31, Kamothe, Navi Mumbai - 410209</p>
+                    <div class="map-container" style="margin-top:1rem;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d426.6778174389845!2d73.09395537648737!3d19.021718099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e9d1258c7fbd%3A0xfdde4249d1c36b3b!2sGeetanjali%20Complex%2C%2031%2C%20Sector%208%2C%20Kamothe%2C%20Panvel%2C%20Navi%20Mumbai%2C%20Maharashtra%20410209!5e1!3m2!1sen!2sin!4v1746977071759!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
-            
-            
         </div>
-
-
+    </section>
 
 
 
@@ -250,7 +262,8 @@
     </div>
 </main>
 
-<!-- footer-area -->
+    
+    <!-- footer-area -->
     <footer class="" style="background-image: linear-gradient(to bottom,  #004986, #004986 );     ">
         <div class="container">
            
@@ -277,7 +290,6 @@
     <!-- footer-area-end -->
 
 
-
     <!-- JS here -->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -295,6 +307,56 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script>
+        // Contact page: validate and open WhatsApp / Email with message
+        function validateContactForm() {
+            var fullName = (document.getElementById('c_fullName')||{}).value || '';
+            var email = (document.getElementById('c_email')||{}).value || '';
+            var phone = (document.getElementById('c_phone')||{}).value || '';
+            var country = (document.getElementById('c_country')||{}).value || '';
+            var message = (document.getElementById('c_message')||{}).value || '';
+            fullName = fullName.trim(); email = email.trim(); phone = phone.trim(); country = country.trim(); message = message.trim();
+            if (!fullName) { alert('Please enter your full name'); document.getElementById('c_fullName').focus(); return false; }
+            var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRe.test(email)) { alert('Please enter a valid email address'); document.getElementById('c_email').focus(); return false; }
+            var phoneRe = /^\+?[0-9\s\-]{7,15}$/;
+            if (!phoneRe.test(phone)) { alert('Please enter a valid phone number (7-15 digits, optional +)'); document.getElementById('c_phone').focus(); return false; }
+            if (!country) { alert('Please enter your country'); document.getElementById('c_country').focus(); return false; }
+            if (!message) { alert('Please enter a message'); document.getElementById('c_message').focus(); return false; }
+            return true;
+        }
+
+        function buildContactMessage() {
+            var name = (document.getElementById('c_fullName')||{}).value || '';
+            var email = (document.getElementById('c_email')||{}).value || '';
+            var phone = (document.getElementById('c_phone')||{}).value || '';
+            var country = (document.getElementById('c_country')||{}).value || '';
+            var msg = (document.getElementById('c_message')||{}).value || '';
+            var out = 'Contact enquiry';
+            if (name) out += '\nName: ' + name.trim();
+            if (email) out += '\nEmail: ' + email.trim();
+            if (phone) out += '\nPhone: ' + phone.trim();
+            if (country) out += '\nCountry: ' + country.trim();
+            if (msg) out += '\nMessage: ' + msg.trim();
+            return out;
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var waBtn = document.getElementById('c_wa_btn');
+            var emailBtn = document.getElementById('c_email_btn');
+            if (waBtn) waBtn.addEventListener('click', function(e){
+                e.preventDefault();
+                if (!validateContactForm()) return;
+                var wa = 'https://wa.me/919892274806?text=' + encodeURIComponent(buildContactMessage());
+                window.open(wa, '_blank');
+            });
+            if (emailBtn) emailBtn.addEventListener('click', function(e){
+                e.preventDefault();
+                if (!validateContactForm()) return;
+                var subject = 'Contact Enquiry';
+                var body = buildContactMessage();
+                window.location.href = 'mailto:merchant@terralinkexport.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+            });
+        });
         SVGInject(document.querySelectorAll("img.injectable"));
     </script>
 
@@ -373,47 +435,32 @@
     <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script>
         $(document).ready(function() {
+            // Legacy contact form (if present) AJAX submit
             $('#contact-form').on('submit', function(event) {
-                event.preventDefault(); // Prevent the form from submitting the traditional way
-
-                // Show the preloader
-                $('#preloader').show();
-
-                // Serialize the form data
+                event.preventDefault();
+                try { $('#preloader').show(); } catch (e) {}
                 var formData = $(this).serialize();
-
-                // Perform the AJAX request
                 $.ajax({
-                    url: 'contact_process.php', // PHP script that processes the form
+                    url: 'contact_process.php',
                     method: 'POST',
                     data: formData,
                     success: function(response) {
-                        // Hide the preloader when the request is successful
-                        $('#preloader').hide();
-
-                        // Show a success message or handle response here
+                        try { $('#preloader').hide(); } catch (e) {}
                         alert('Your message has been sent successfully!');
                     },
-                    error: function(xhr, status, error) {
-                        // Hide the preloader if there is an error
-                        $('#preloader').hide();
-
-                        // Handle any errors here
+                    error: function() {
+                        try { $('#preloader').hide(); } catch (e) {}
                         alert('There was an error sending your message. Please try again later.');
                     }
                 });
             });
 
-
+            // Quote modal form submit
             $('#quoteRequestForm').on('submit', function(event) {
-                event.preventDefault(); // Prevent the form from submitting the traditional way
-
-                // Show the loader
-                $('#preloader').show();
+                event.preventDefault();
+                try { $('#preloader').show(); } catch (e) {}
                 $('#submitButton').prop('disabled', true);
-                $('#requestQuoteModal').modal('hide'); // Disable the submit button to prevent multiple submissions
-
-                // Collect form data
+                $('#requestQuoteModal').modal('hide');
                 var formData = {
                     fullName: $('#fullName').val(),
                     companyName: $('#companyName').val(),
@@ -422,30 +469,49 @@
                     emailID: $('#emailID').val(),
                     details: $('#details').val()
                 };
-
-                // Send AJAX request to the server
                 $.ajax({
                     type: 'POST',
-                    url: 'contact_process.php', // URL where the PHP form handling script is located
+                    url: 'contact_process.php',
                     data: formData,
                     success: function(response) {
-                        // Hide the loader and enable the submit button
-                        $('#preloader').hide();
-
-
+                        try { $('#preloader').hide(); } catch (e) {}
                         alert('Thank you for your submission! We will get back to you soon.');
-
                         window.location.href = window.location.href;
-
                         $('#submitButton').prop('disabled', false);
                         $('#responseMessage').html('<p>Thank you for your submission! We will get back to you soon.</p>').show();
-                        $('#quoteRequestForm')[0].reset(); // Reset the form
+                        $('#quoteRequestForm')[0].reset();
                     },
-                    error: function(xhr, status, error) {
-                        // Hide the loader and enable the submit button
-                        $('#preloader').hide();
+                    error: function() {
+                        try { $('#preloader').hide(); } catch (e) {}
                         $('#submitButton').prop('disabled', false);
                         $('#responseMessage').html('<p>There was an error submitting your request. Please try again later.</p>').show();
+                    }
+                });
+            });
+
+            // Contact page form submit
+            $('#contactForm').on('submit', function(event) {
+                event.preventDefault();
+                try { $('#preloader').show(); } catch (e) {}
+                var formData = {
+                    fullName: $('#c_fullName').val(),
+                    email: $('#c_email').val(),
+                    phone: $('#c_phone').val(),
+                    country: $('#c_country').val(),
+                    message: $('#c_message').val()
+                };
+                $.ajax({
+                    type: 'POST',
+                    url: 'contact_process.php',
+                    data: formData,
+                    success: function(resp) {
+                        try { $('#preloader').hide(); } catch (e) {}
+                        alert('Thank you — your message has been sent.');
+                        $('#contactForm')[0].reset();
+                    },
+                    error: function() {
+                        try { $('#preloader').hide(); } catch (e) {}
+                        alert('There was an error sending your message. Please try again later.');
                     }
                 });
             });

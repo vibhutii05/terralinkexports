@@ -93,17 +93,25 @@
                                     <li><a href="about.html" style="color: #008cff;">About Us</a></li>
                                     <li class="menu-item-has-children"><a href="products.html">Products</a>
                                         <ul class="sub-menu">
-                                            <li><a href=" turmeric.html"> Turmeric</a></li>
-                                            <li><a href="makhana.html">Makhana</a></li>
+                                            <li><a href="turmeric.html">Turmeric</a></li>
+                                            <li><a href="makhana.html">Makahana</a></li>
+                                            <li><a href="redchilli.html">Red Chilli</a></li>
                                         </ul>
                                     </li>
                                     <!-- <li><a href="products.html">Products</a></li> -->
-                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
-                            <div class="tgmenu__action d-none d-md-flex">
+                            <div class="tgmenu__action d-none d-md-flex" style="position: relative;">
                                 <ul class="list-wrap">
-                                    <li class="header-btn"><a class="btn" data-bs-toggle="modal" data-bs-target="#requestQuoteModal">Get Quote</a></li>
+                                    <li class="header-btn" id="quoteDropdownContainer" style="position: relative;">
+                                        <a class="btn" href="#" id="quoteDropdown" role="button" aria-expanded="false">Get Quote</a>
+                                        <ul class="dropdown-menu quote-dropdown-menu" aria-labelledby="quoteDropdown" style="background-color: #004986; border: none; box-shadow: 0 4px 8px rgba(0,0,0,0.2); display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); width: 220px; margin-top: 8px; z-index: 1000; list-style: none; padding: 5px 0; margin: 0;">
+                                            <li style="margin: 0;"><a class="dropdown-item quote-item" href="turmeric.html" style="color: #ffffff; font-weight: 500; padding: 12px 20px; display: block; transition: all 0.3s ease; width: 100%; text-decoration: none; box-sizing: border-box; margin: 0;">Turmeric</a></li>
+                                            <li style="margin: 0;"><a class="dropdown-item quote-item" href="makhana.html" style="color: #ffffff; font-weight: 500; padding: 12px 20px; display: block; transition: all 0.3s ease; width: 100%; text-decoration: none; box-sizing: border-box; margin: 0;">Makhana</a></li>
+                                            <li style="margin: 0;"><a class="dropdown-item quote-item" href="redchilli.html" style="color: #ffffff; font-weight: 500; padding: 12px 20px; display: block; transition: all 0.3s ease; width: 100%; text-decoration: none; box-sizing: border-box; margin: 0;">Red Chilli Powder</a></li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="mobile-nav-toggler">
@@ -228,79 +236,7 @@ At Terralink Export, we are not just exporters — we are ambassadors of India's
         </div>
 
 
-        <section class="team">
-    <div class="image-containerr">
-      <img height="450px" width="600px" src="image/team.png" alt="Team" />
-    </div>
-    <div class="text-container">
-      <h2>Meet Our Team</h2>
-      <p>Our team is the driving force behind our commitment to quality, reliability, and global excellence. 
-        We are a dedicated group of professionals with deep expertise in international trade, logistics, and product sourcing. 
-        Each team member brings a unique set of skills and a shared passion for delivering exceptional service to our partners worldwide. 
-        From seasoned export managers to agile operations staff, our collaborative approach ensures seamless communication, 
-        compliance with global standards, and timely delivery of every shipment. 
-        At TerraLink, we don’t just move products—we build lasting relationships across borders.</p>
-    </div>
-  </section>
-
-  <section class="team">
-    <div class="image-container">
-      <img src="image/aniket.png" alt="aniket" />
-    </div>
-    <div class="text-container">
-      <h2>Aniket Jha</h2>
-     <b>Founder</b>
-      <br>
-      <br>
-      <p>TerraLink Export was founded by Aniket Jha, a visionary leader with a deep-rooted passion for global trade 
-        and sustainable business growth. With years of experience in the export industry, he established TerraLink with the 
-        goal of bridging local producers with international markets through transparent, reliable, and ethical practices. 
-        Under his leadership, the company has grown into a trusted name in exports, known for its commitment to quality, 
-        strategic partnerships, and customer satisfaction. He continues to guide TerraLink’s mission with 
-        unwavering dedication and a forward-thinking approach to international commerce.
-      </p>
-    </div>
-  </section>
-
-  <section class="team">
-    <div class="image-container">
-      <img src="image/tejas.png" alt="tejas" />
-    </div>
-    <div class="text-container">
-      <h2>Tejas Bhosale</h2>
-      <b>Co-founder</b>
-      <br>
-      <br>
-      <p>
-        Tejas Bhosale serves as the Co-founder of TerraLink Export, bringing a strong background in logistics, operations, 
-        and business strategy. With a sharp eye for efficiency and an unwavering commitment to excellence, he has played a key 
-        role in building the company’s operational backbone and ensuring smooth execution across all export processes. He works closely 
-        with the founder to shape the company’s long-term vision while focusing on scalable systems, compliance, and client satisfaction. 
-        His hands-on leadership and collaborative spirit continue to drive TerraLink’s growth in competitive global markets.
-      </p>
-    </div>
-  </section>
-
-  <section class="team">
-    <div class="image-container">
-      <img src="image/vibhuti.png" alt="vibhuti" />
-    </div>
-    <div class="text-container">
-      <h2>Vibhuti Yadav</h2>
-      <b>Digital Marketing Strategist</b>
-      <br>
-      <br>
-      <p>
-        Meet our Digital Marketing Strategist, the creative force behind Terralink Export’s strong online presence. 
-        With a deep understanding of global markets and digital trends, they craft strategic campaigns that amplify our brand, 
-        engage international audiences, and drive growth for our Makhana and Turmeric exports.
-      </p>
-    </div>
-  </section>
-  
-
-
-
+        
 
     <!-- About-area-end -->
     <!-- Modal -->
@@ -344,96 +280,19 @@ At Terralink Export, we are not just exporters — we are ambassadors of India's
     </div>
 </main>
 
-    <!-- footer-area -->
-    <footer class="" style="background-image: linear-gradient(to top,  #000, #008cff );     ">
+<!-- footer-area -->
+    <footer class="" style="background-image: linear-gradient(to bottom,  #004986, #004986 );     ">
         <div class="container">
-            <div class="footer__top" style="padding-bottom:0px; padding-top:30px;">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-5 col-md-6">
-                        <div class="footer__widget" align="center">
-                            <img src="assets/img/terralink.png"><br><br>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="footer__widget">
-                            <h6 class="footer__widget-title" style="font-size: 20px">
-                                Products
-                            </h6>
-                            <div class="footer__info-wrap">
-                                <ul class="list-wrap" style="font-size: 0px">
-                                    <li>
-                                        <i class="fa fa-angle-double-right" style="font-size: 14px">
-                                            <a href=" turmeric.html" style="color: #ffffff; font-family: sans-serif; font-size: 16px;">&nbsp; Turmeric</a>
-                                        </i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-angle-double-right" style="font-size: 14px">
-                                            <a href="makhana.html" style="color: #ffffff; font-family: sans-serif; font-size: 16px;">&nbsp;  Makhana</a>
-                                        </i>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="footer__widget">
-                            <h6 class="footer__widget-title" style="font-size: 20px">
-                                Quick Links
-                            </h6>
-                            <div class="footer__info-wrap">
-                                <ul class="list-wrap" style="font-size: 0px">
-                                    <li>
-                                        <i class="fa fa-angle-double-right" style="font-size: 14px">
-                                            <a href="about.html" style="color: #ffffff; font-family: sans-serif; font-size: 14px;">&nbsp; About Us</a>
-                                        </i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-angle-double-right" style="font-size: 14px">
-                                            <a href="services.html" style="color: #ffffff; font-family: sans-serif; font-size: 14px;">&nbsp; Services</a>
-                                        </i>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="footer__widget">
-                            <h6 class="footer__widget-title " style="font-size: 20px;"> Contact Us </h6>
-                            <div class="footer__info-wrap  ">
-                                <ul class="list-wrap" style="font-size: 0px;">
-                                    <li>
-                                        <i class="flaticon-location-1"></i>
-                                        <a href="https://maps.app.goo.gl/65MsaEpJNar9n5Sy5" target="_blank"><p style="color: #ffffff;  font-family: sans-serif; font-size: 14px;">A/102, Geetanjali Complex,
-Sector-8, Plot no.: 31, Kamothe Navi Mumbai - 410209</p></a>
-                                    </li>
-                                    <li>
-                                        <i class="flaticon-telephone"></i>
-                                        <a href="tel:9892274806" style="color: #ffffff;  font-family: sans-serif; font-size: 14px;">+91
-                                            9892274806 </a>
-                                    </li>
-                                    <li>
-                                        <i class="flaticon-envelope"></i>
-                                        <a href="mailto:merchant@terralinkexport.com" style="color: #ffffff;  font-family: sans-serif; font-size: 14px;">merchant@terralinkexport.com</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
             <div class="footer__bottom">
                 <div class="row align-items-center">
                     <div class="col-md-7">
-                        <div class="copyright-text" style="text-align: center;">
-                            <p style="color: #ffffff;  font-family: sans-serif; font-size: 14px;">
+                        <div class="copyright-text" style="text-align: center; height: 50px;">
+                            <p style="color: #ffffff;  font-family: sans-serif; font-size: 14px; padding-top: 15px;">
+                                © COPYRIGHT |
                                 <script type="text/javascript">
                                     document.write(new Date().getFullYear());
-                                </script> <a href="index.html" style="color: #ffffff;  font-family: sans-serif; font-size: 14px;">Terralink Export</a> | All Right Reserved
+                                </script> <a href="index.html" style="color: #ffffff;  font-family: sans-serif; font-size: 14px;">TERRALINK EXPORT</a> | ALL RIGHT RESERVED
                             </p>
                         </div>
                     </div>
@@ -442,7 +301,6 @@ Sector-8, Plot no.: 31, Kamothe Navi Mumbai - 410209</p></a>
             </div>
         </div>
 
-    
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -468,6 +326,70 @@ Sector-8, Plot no.: 31, Kamothe Navi Mumbai - 410209</p></a>
 
     <script>
         SVGInject(document.querySelectorAll("img.injectable"));
+    </script>
+
+    <style>
+        /* Quote dropdown hover styling */
+        .quote-item {
+            color: #ffffff !important;
+            background-color: #004986 !important;
+            transition: all 0.3s ease !important;
+            text-align: left !important;
+        }
+        
+        .quote-item:hover {
+            background-color: #ffffff !important;
+            color: #008cff !important;
+        }
+        
+        .quote-dropdown-menu li {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        
+        .quote-dropdown-menu li a {
+            margin: 0 !important;
+            padding: 12px 20px !important;
+        }
+    </style>
+
+    <script>
+        // Toggle dropdown visibility on Get Quote button click
+        document.addEventListener('DOMContentLoaded', function() {
+            const quoteDropdown = document.getElementById('quoteDropdown');
+            const dropdownMenu = document.querySelector('.quote-dropdown-menu');
+            const dropdownContainer = document.getElementById('quoteDropdownContainer');
+            
+            if (quoteDropdown && dropdownMenu) {
+                // Toggle dropdown on button click
+                quoteDropdown.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    // Toggle the dropdown menu visibility
+                    if (dropdownMenu.style.display === 'none' || dropdownMenu.style.display === '') {
+                        dropdownMenu.style.display = 'block';
+                    } else {
+                        dropdownMenu.style.display = 'none';
+                    }
+                });
+
+                // Close dropdown when clicking on a menu item
+                const dropdownItems = dropdownMenu.querySelectorAll('.dropdown-item');
+                dropdownItems.forEach(item => {
+                    item.addEventListener('click', function() {
+                        dropdownMenu.style.display = 'none';
+                    });
+                });
+
+                // Close dropdown when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!dropdownContainer.contains(e.target)) {
+                        dropdownMenu.style.display = 'none';
+                    }
+                });
+            }
+        });
     </script>
 
 

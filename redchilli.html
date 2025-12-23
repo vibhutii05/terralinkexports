@@ -5,8 +5,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Terralink Export</title>
-    <meta name="description" content="Terralink Export">
+    <title>Red Chilli Powder - Terralink Export</title>
+    <meta name="description" content="Premium Red Chilli Powder - Terralink Export">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" type="img/png" href="assets/img/terralink.png" width="100%">
@@ -95,12 +95,11 @@
                                         <ul class="sub-menu">
                                             <li><a href="turmeric.html">Turmeric</a></li>
                                             <li><a href="makhana.html">Makahana</a></li>
-                                             <li><a href="redchilli.html">Red Chilli</a></li>
+                                            <li><a href="redchilli.html">Red Chilli</a></li>
                                         </ul>
                                     </li>
                                     <!-- <li><a href="products.html">Products</a></li> -->
                                     <li><a href="contact.html">Contact</a></li>
-                                    <!--<li><a href="faq.html">FAQ's</a></li>-->
                                 </ul>
                             </div>
                             <div class="tgmenu__action d-none d-md-flex" style="position: relative;">
@@ -156,101 +155,148 @@
 
     <div class="aabout-header">
         <div class="aoverlay">
-            <h1 style="color: #fff; margin-top: -10px;">Products</h1>
+            <h1 style="color: #fff; margin-top: -10px;">Red Chilli Powder</h1>
             
             <div class="abreadcrumb">
-                <a href="index.html"><i class="fas fa-home"></i> Home</a> ➝<span>Products</span>
+                <a href="index.html"><i class="fas fa-home"></i> Home</a> ➝<a href="products.html"> Products</a> ➝ <span>Red Chilli Powder</span>
             </div>
         </div>
     </div>
-       
-        <div class="productContainer">
-            <div class="productCard wow fadeInUp" data-wow-delay="0.2s">
-                <img src="image/product_turmeric.png" alt="Turmeric" class="productCard__img"> 
-                     <div class="productCard__data">
-                         <h1 class="productCard__title">Turmeric</h1>
-                         <p style="color: #fff;">(HSN Code: 09103030)</p>
-                         <span class="productCard__preci">Golden goodness from farm to table.</span>
-                         <p class="productCard__description">Explore our Premium range of farm-fresh tumeric, sustainably grown, richly aromatic and naturally powerfull.</p>
-                         <a href="turmeric.html" class="productCard__button">Know more</a>
-                     </div>
-            </div>
-            <div class="productCard wow fadeInUp" data-wow-delay="0.4s">
-                <img src="image/product_makhana.png" alt="Makhana" class="productCard__img"> 
-                     <div class="productCard__data">
-                         <h1 class="productCard__title">Makhana</h1>
-                         <p style="color: #fff;">(HSN Code: 20081921)</p>
-                         <span class="productCard__preci">From pond to pack - pure makhana</span>
-                         <p class="productCard__description">Explore our Premium range of handpicked makhana from farmers, naturally sourced, expertly roast. Makhana you can trust.</p>
-                         <a href="makhana.html" class="productCard__button">Know more</a>
-                     </div>
-            </div>
+    <section class="blog-area section-py-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- TOP ROW: Image and Form Side by Side -->
+                    <div class="row align-items-center">
+                        <!-- LEFT: Image -->
+                        <div class="col-lg-6 col-md-12 wow fadeInLeft" data-wow-delay="0.3s" style="padding: 20px;">
+                            <img src="image/Redchillipowderproduct.jpg" alt="Red Chilli Powder" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                        </div>
+                        
+                        <!-- RIGHT: Enquiry Form -->
+                        <div class="col-lg-6 col-md-12 wow fadeInRight" data-wow-delay="0.3s" style="padding: 20px;">
+                            <div style="background: linear-gradient(135deg, #004986, #006bb3); padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                                <h2 style="margin-bottom: 20px; color: #fff; text-align: center;">Raise Enquiry</h2>
+                                
+                                <!-- Product Type Selection -->
+                                <div style="margin-bottom: 25px;">
+                                    <label style="font-weight: bold; margin-bottom: 10px; color: #fff; display: block;">Select Variety:</label>
+                                    <div>
+                                        <button onclick="selectVariety(this, 'Standard')" style="border: 2px solid #008cff; background: #fff; color: #004986; padding: 10px 18px; margin: 5px; border-radius: 5px; cursor: pointer; font-weight: 600; transition: all 0.3s ease;">Standard</button>
+                                        <button onclick="selectVariety(this, 'Premium')" style="border: 2px solid #008cff; background: #fff; color: #004986; padding: 10px 18px; margin: 5px; border-radius: 5px; cursor: pointer; font-weight: 600; transition: all 0.3s ease;">Premium</button>
+                                        <button onclick="selectVariety(this, 'Extra Hot')" style="border: 2px solid #008cff; background: #fff; color: #004986; padding: 10px 18px; margin: 5px; border-radius: 5px; cursor: pointer; font-weight: 600; transition: all 0.3s ease;">Extra Hot</button>
+                                    </div>
+                                </div>
+                                
+                                <!-- Quantity -->
+                                <div style="margin-bottom: 25px;">
+                                    <label style="font-weight: bold; margin-bottom: 10px; color: #fff; display: block;">Quantity Required:</label>
+                                    <input id="quantity" type="number" min="1" placeholder="Enter quantity" style="width: 100%; padding: 12px; font-size: 16px; border: none; border-radius: 5px; box-sizing: border-box;">
+                                    <small style="color: #ddd; display: block; margin-top: 5px;">in Kg</small>
+                                </div>
+                                
+                                <!-- Contact Info -->
+                                <div style="margin-bottom: 25px;">
+                                    <label style="font-weight: bold; margin-bottom: 10px; color: #fff; display: block;">Your Email:</label>
+                                    <input id="email" type="email" placeholder="your@email.com" style="width: 100%; padding: 12px; font-size: 16px; border: none; border-radius: 5px; box-sizing: border-box;">
+                                </div>
+                                
+                                <div style="margin-bottom: 25px;">
+                                    <label style="font-weight: bold; margin-bottom: 10px; color: #fff; display: block;">Phone Number:</label>
+                                    <input id="phone" type="tel" placeholder="Enter your phone number" style="width: 100%; padding: 12px; font-size: 16px; border: none; border-radius: 5px; box-sizing: border-box;">
+                                </div>
+                                
+                                <!-- Submit Buttons -->
+                                <div style="display:flex; gap:10px;">
+                                    <button onclick="sendWhatsApp()" style="
+                                        flex: 1;
+                                        background: #25D366;
+                                        color: #fff;
+                                        border: none;
+                                        padding: 12px 16px;
+                                        font-size: 15px;
+                                        font-weight: 600;
+                                        border-radius: 5px;
+                                        cursor: pointer;
+                                        transition: all 0.3s ease;
+                                    "
+                                    onmouseover="this.style.opacity='0.9';"
+                                    onmouseout="this.style.opacity='1';">
+                                        💬 Raise Enquiry on WhatsApp
+                                    </button>
 
-            <div class="productCard wow fadeInUp" data-wow-delay="0.6s">
-                <img src="image/Redchillipowder.png" alt="Red Chilli Powder" class="productCard__img"> 
-                     <div class="productCard__data">
-                         <h1 class="productCard__title">Red Chilli Powder</h1>
-                         <p style="color: #fff;">(HSN Code: 09042211)</p>
-                         <span class="productCard__preci">From Indian farms to your kitchen – spice that speaks quality.</span>
-                         <p class="productCard__description">Pure and vibrant Red Chilli Powder, made from handpicked Indian chillies for rich color and bold flavor.</p>
-                         <a href="redchilli.html" class="productCard__button">Know more</a>
-                     </div>
+                                    <button onclick="sendEmail()" style="
+                                        flex: 1;
+                                        background: #008cff;
+                                        color: #fff;
+                                        border: none;
+                                        padding: 12px 16px;
+                                        font-size: 15px;
+                                        font-weight: 600;
+                                        border-radius: 5px;
+                                        cursor: pointer;
+                                        transition: all 0.3s ease;
+                                    "
+                                    onmouseover="this.style.background='#0073cc';"
+                                    onmouseout="this.style.background='#008cff';">
+                                        📧 Raise Enquiry via Email
+                                    </button>
+                                </div>
+                                
+                                <p style="color: #ddd; font-size: 12px; text-align: center; margin-top: 15px;">
+                                    We'll respond within 24 hours
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BOTTOM ROW: Description Content Full Width -->
+                    <div class="row" style="margin-top: 40px;">
+                        <div class="col-12 wow fadeInUp" data-wow-delay="0.4s">
+                            <div style="font-size: 16px; line-height: 1.8; color: #333;">
+                                <h3 style="margin: 15px 0; color: #008cff; font-weight: 600;">Red Chilli Powder - Pure Heat & Flavor</h3>
+                                
+                                <p style="margin-bottom: 15px;">
+                                    Our <strong>Premium Red Chilli Powder</strong> is made from handpicked Indian chillies, renowned for their vibrant color, rich flavor, and perfect heat level. Every batch is carefully ground to a fine powder using traditional methods to preserve nutritional value and authentic taste.
+                                </p>
+                                
+                                <p style="margin-bottom: 15px;">
+                                    Sourced directly from trusted farmers in India's prime chilli-growing regions, our Red Chilli Powder is <strong>100% pure</strong>, with <strong>no fillers or additives</strong>. It's perfect for curries, spices blends, condiments, and traditional cooking.
+                                </p>
+                                
+                                <h4 style="margin: 20px 0 10px 0; color: #004986; font-weight: 600;">✓ Key Benefits:</h4>
+                                <ul style="padding-left: 20px; margin-bottom: 15px;">
+                                    <li><strong>Rich in Capsaicin</strong> - Boosts metabolism and immunity</li>
+                                    <li><strong>Vibrant Red Color</strong> - Perfect for food appeal</li>
+                                    <li><strong>Authentic Flavor</strong> - Premium taste & aroma</li>
+                                    <li><strong>100% Pure</strong> - No additives or preservatives</li>
+                                    <li><strong>High Pungency</strong> - Superior heat level (50,000-75,000 SHU)</li>
+                                </ul>
+                                
+                                <h4 style="margin: 20px 0 10px 0; color: #004986; font-weight: 600;">📋 Specifications:</h4>
+                                <ul style="padding-left: 20px;">
+                                    <li><strong>Moisture:</strong> < 10%</li>
+                                    <li><strong>Color Value:</strong> Bright Red (ASTA 80+)</li>
+                                    <li><strong>Pungency:</strong> 50,000-75,000 SHU</li>
+                                    <li><strong>Appearance:</strong> Fine powder</li>
+                                    <li><strong>Origin:</strong> Premium Indian varieties</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            
         </div>
-
-
+    </section>
 
 
 
     <!-- Product-area-end -->
-    <!-- Modal -->
-    <div class="modal fade" id="requestQuoteModal" tabindex="-1" aria-labelledby="requestQuoteModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="requestQuoteModalLabel" style="color: black">
-                        Request a Quote
-                    </h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p style="color: black; font-size: 20px">
-                        Ready to Work Together? Build a project with us!
-                    </p>
-                    <form id="quoteRequestForm">
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required />
-                        </div>
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="companyName" placeholder="Enter your company name" required />
-                        </div>
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="country" placeholder="Enter your country" required />
-                        </div>
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="mobileNo" placeholder="Enter your mobile number" required />
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" id="emailID" placeholder="Enter your email ID" required />
-                        </div>
-                        <div class="mb-3">
-                            <textarea class="form-control" id="details" placeholder="Details" rows="3" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-submit" id="submitButton">Submit</button>
-                    </form>
-                    <!-- <div id="loader" style="display:none;">
-          <img src="assets/img/loader.gif" alt="Loading..." />
-        </div> -->
-                    <!-- <div id="responseMessage" style="display:none;"></div> -->
-                </div>
-            </div>
-        </div>
-    </div>
+    
+    
 </main>
 
-<!-- footer-area -->
+    <!-- footer-area -->
     <footer class="" style="background-image: linear-gradient(to bottom,  #004986, #004986 );     ">
         <div class="container">
            
@@ -275,8 +321,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- footer-area-end -->
-
-
 
     <!-- JS here -->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
@@ -371,49 +415,72 @@
         }
     </script>
     <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+    <script>
+        let selectedVariety = "";
+        
+        function selectVariety(btn, variety) {
+            let buttons = btn.parentElement.querySelectorAll("button");
+            buttons.forEach(b => {
+                b.style.background = "#fff";
+                b.style.color = "#004986";
+            });
+            btn.style.background = "#008cff";
+            btn.style.color = "#fff";
+            selectedVariety = variety;
+        }
+
+        function validateAndBuildMessage() {
+            let qty = document.getElementById("quantity").value.trim();
+            let email = document.getElementById("email").value.trim();
+            let phone = document.getElementById("phone").value.trim();
+
+            if (!selectedVariety) {
+                alert("Please select a variety.");
+                return null;
+            }
+            if (!qty || isNaN(qty) || qty <= 0) {
+                alert("Please enter a valid quantity.");
+                return null;
+            }
+            if (!email || !email.includes("@")) {
+                alert("Please enter a valid email.");
+                return null;
+            }
+            if (!phone) {
+                alert("Please enter your phone number.");
+                return null;
+            }
+
+            let message = `Red Chilli Powder Enquiry\nVariety: ${selectedVariety}\nQuantity: ${qty} Kg\nEmail: ${email}\nPhone: ${phone}`;
+            return message;
+        }
+
+        function sendWhatsApp() {
+            const message = validateAndBuildMessage();
+            if (!message) return;
+            const waUrl = "https://wa.me/919892274806?text=" + encodeURIComponent(message);
+            window.open(waUrl, "_blank");
+        }
+
+        function sendEmail() {
+            const message = validateAndBuildMessage();
+            if (!message) return;
+            const subject = 'Red Chilli Powder Enquiry';
+            const mailto = 'mailto:merchant@terralinkexport.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(message);
+            window.location.href = mailto;
+        }
+
+        // Backwards-compatible alias
+        function submitForm() {
+            sendWhatsApp();
+        }
+    </script>
     <script>
         $(document).ready(function() {
-            $('#contact-form').on('submit', function(event) {
-                event.preventDefault(); // Prevent the form from submitting the traditional way
-
-                // Show the preloader
-                $('#preloader').show();
-
-                // Serialize the form data
-                var formData = $(this).serialize();
-
-                // Perform the AJAX request
-                $.ajax({
-                    url: 'contact_process.php', // PHP script that processes the form
-                    method: 'POST',
-                    data: formData,
-                    success: function(response) {
-                        // Hide the preloader when the request is successful
-                        $('#preloader').hide();
-
-                        // Show a success message or handle response here
-                        alert('Your message has been sent successfully!');
-                    },
-                    error: function(xhr, status, error) {
-                        // Hide the preloader if there is an error
-                        $('#preloader').hide();
-
-                        // Handle any errors here
-                        alert('There was an error sending your message. Please try again later.');
-                    }
-                });
-            });
-
-
             $('#quoteRequestForm').on('submit', function(event) {
-                event.preventDefault(); // Prevent the form from submitting the traditional way
+                event.preventDefault();
 
-                // Show the loader
-                $('#preloader').show();
-                $('#submitButton').prop('disabled', true);
-                $('#requestQuoteModal').modal('hide'); // Disable the submit button to prevent multiple submissions
-
-                // Collect form data
                 var formData = {
                     fullName: $('#fullName').val(),
                     companyName: $('#companyName').val(),
@@ -423,29 +490,17 @@
                     details: $('#details').val()
                 };
 
-                // Send AJAX request to the server
                 $.ajax({
                     type: 'POST',
-                    url: 'contact_process.php', // URL where the PHP form handling script is located
+                    url: 'contact_process.php',
                     data: formData,
                     success: function(response) {
-                        // Hide the loader and enable the submit button
-                        $('#preloader').hide();
-
-
                         alert('Thank you for your submission! We will get back to you soon.');
-
                         window.location.href = window.location.href;
-
                         $('#submitButton').prop('disabled', false);
-                        $('#responseMessage').html('<p>Thank you for your submission! We will get back to you soon.</p>').show();
-                        $('#quoteRequestForm')[0].reset(); // Reset the form
                     },
                     error: function(xhr, status, error) {
-                        // Hide the loader and enable the submit button
-                        $('#preloader').hide();
                         $('#submitButton').prop('disabled', false);
-                        $('#responseMessage').html('<p>There was an error submitting your request. Please try again later.</p>').show();
                     }
                 });
             });
